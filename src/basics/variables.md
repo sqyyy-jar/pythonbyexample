@@ -26,3 +26,16 @@ Das sieht dann so aus:
 ergebnis = 5 + 10
 ```
 Die Variable `ergebnis` würde dann 15 sein.
+
+## Variablen mit Text in print() kombinieren
+Wenn man Text und Variablen in einem Satz ausgeben will, kann man dies auch direkt mit der `print()` Funktion machen.
+Das sieht dann so aus:
+```py
+text = "Python"
+print(python + " ist super!")
+```
+
+In der Konsole steht jetzt:
+```cmd
+Python ist super!
+```

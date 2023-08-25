@@ -1,4 +1,5 @@
 # Eingaben vom Benutzer
+
 Oft brauchen wir auch Eingaben vom Benutzer. Das geht mit dem Schlüsselwort `input()`. Dies braucht wieder
 Klammern. 
 
@@ -14,6 +15,7 @@ input("Bitte gebe deinen Namen ein: ")
 Wir bekommen in diesem Fall eine Aufforderung unseren namen einzugeben. Dieser wird jedoch nicht gespeichert.
 
 ## Namen abfragen und ausgeben
+
 Um einen `input` Wert zu speichern brauchen wir wieder [Variablen](variables.md). Wir schreiben also:
 ```python
 name = input("Gebe deinen Namen ein: ")

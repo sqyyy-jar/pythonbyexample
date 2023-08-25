@@ -1,4 +1,5 @@
 # Listen
+
 Wenn wir viele Daten haben, welche wir speichern müssen, ist es äußerst umständlich für jede Date eine eigene
 variable zu erstellen. Deswegen gibt es Listen die unter einem Variablennamen mehrere Daten speichern können.
 
@@ -18,6 +19,7 @@ Deie Ausgabe sieht dann so aus:
 ```
 
 ## Auf einzelene Elemente zugreifen
+
 Jeder Eintrag in einer Liste hat eine Nummer. 
 
 In der Informatik fängt man bei 0 an zu zählen.
@@ -33,6 +35,7 @@ print(fruechte[1])
 ```
 
 ## Elemente hinzufügen
+
 Man kann auch Elemente im Nachhinein einer Liste hinzufügen. Dies funktioniert mit dem Variablennamen, an welchen man
 einfach ein `.append()` hängen. 
 
@@ -45,6 +48,7 @@ fruechte.append("birne")
 ```
 
 ## Elemente entfernen
+
 Um elemente zu entfernen, schreibt man einfach:
 ```python
 fruechte = ["apfel", "banane", "kirsche"]
