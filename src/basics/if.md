@@ -9,14 +9,14 @@ Werte können direkt in der Verzweigung festgelegt werden oder als Variablen ver
 
 | Operator |                                Beschreibung                                |
 |:--------:|:--------------------------------------------------------------------------:|
-|   `==`   |    Wenn ein Wert = einem anderem Wert entspricht ist das Ergebnis True     |
-|   `!=`   |      Wenn ein Wert nicht dem anderen entspricht ist das Ergebnis True      |
+|   `==`   |     Wenn ein Wert einem anderem Wert entspricht ist das Ergebnis True      |
+|   `!=`   |     Wenn ein Wert nicht einem anderen entspricht ist das Ergebnis True     |
 |   `<`    |       Wenn ein Wert kleiner als der andere ist ist das Ergebnis True       |
 |   `>`    |       Wenn ein Wert größer als der andere ist ist das Ergebnis True        |
 |   `<=`   | Wenn ein Wert kleiner oder gleich ist wie der andere ist das Ergebnis True |
 |   `>=`   | Wenn ein Wert größer oder gleich ist wie der andere ist das Ergebnis True  |
-|   `&&`   |                       Mehrere Werte müssen True sein                       |
-|  `\|\|`  |                       Einer der Werte muss True sein                       |
+|  `and`   |                       Mehrere Werte müssen True sein                       |
+|   `or`   |                       Einer der Werte muss True sein                       |
 
 ## If-Verzweigungen verwenden
 
@@ -25,7 +25,7 @@ If-Verzweigungen sind so aufgebaut: `if <Bedingung>:`
 Bedingungen setzen sich so zusammen: `<Wert> <Operator> <Wert>`
 Dies kann dann so aussehen: `eingabe == "ja"`
 
-Man kann dies außerdem erweitern durch die Oder- und Und-Bedingungen: `eingabe == "Obst" || eingabe == "Gemüse"`
+Man kann dies außerdem erweitern durch die Oder- und Und-Bedingungen: `eingabe == "Obst" or eingabe == "Gemüse"`
 
 Nach dem Schlüsselwort `if` und der Bedingung kommt ein Doppelpunkt, um den Anfang der Verzweigung zu markieren
 
@@ -38,14 +38,14 @@ einen Tab** den exklusiven Code für die Bedingung.
 
 ```py
 eingabe = input("Schreibe eine Autmarke: ")
-if eingabe == "Audi" || eingabe == "BMW" || eingabe == "Mercedes":
+if eingabe == "Audi" or eingabe == "BMW" or eingabe == "Mercedes":
     print("Du hast eine Automarke genannt!")
 ```
 
 ### Zahlen unter 50
 
 ```py
-eingabe = input("Gebe eine Zahl ein: ")
+eingabe = int(input("Gebe eine Zahl ein: "))
 if eingabe > 50:
     print("Deine Zahl ist über 50")
     
@@ -59,7 +59,7 @@ Wenn man einen Fall hat, der nur eintreten soll, wenn die If-Verzweigung nicht a
 
 Dies Verwendet man dann so:
 ```py
-eingabe = input("Gebe eine Zahl ein: ")
+eingabe = int(input("Gebe eine Zahl ein: "))
 if eingabe > 50:
     print("Deine Zahl ist über 50")
 else:
@@ -70,7 +70,7 @@ wissen wir, dass wenn die Zahl nicht über 50 ist unter 50 sein muss. Deswegen i
 
 Man kann `else` auch mit `if` kombinieren. Dies sieht dann so aus:
 ```py
-eingabe = input("Gebe eine Zahl ein: ")
+eingabe = int(input("Gebe eine Zahl ein: "))
 if eingabe > 50:
     print("Deine Zahl ist über 50")
 else if eingabe >= 0:
