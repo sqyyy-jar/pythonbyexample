@@ -22,7 +22,7 @@ Wir schreiben also nun:
 ```python
 print("Hallo Welt")
 ```
-Wenn wir dies nun ausführen ([Python ausführen](main.md)), steht bei uns: 
+Wenn wir dies nun ausführen ([Python ausführen](index.md)), steht bei uns: 
 ```cmd
 Hallo Welt
 ```

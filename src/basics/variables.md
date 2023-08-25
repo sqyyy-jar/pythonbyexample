@@ -7,7 +7,7 @@ Eine Variable in Python sieht dann so aus:
 erste_variable = "Hallo Welt"
 zweite_variable = 5
 ```
-Um an diese Daten zu kommen, müssen wir nun nur noch das Schlüsselwort verwenden. Man kann Variablen auch als Argumente
+Um an diese Daten zu kommen, müssen wir nun nur noch den Variablennamen verwenden. Man kann Variablen auch als Argumente
 von [Funktionen](hello_world.md) verwenden.
 
 Das würde dann so aussehen:

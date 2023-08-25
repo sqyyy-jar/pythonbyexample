@@ -3,7 +3,7 @@ authors = ["Skienex"]
 language = "de"
 multilingual = false
 src = "src"
-title = "pythonmitbeispiel"
+title = "Python Mit Beispielen"
 description = "Lerne Python mit Beispielen."
 
 [output.html]
