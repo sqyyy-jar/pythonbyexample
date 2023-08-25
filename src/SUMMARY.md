@@ -4,6 +4,7 @@
 
 - [Basics](basics/index.md)
   - [Hallo Welt](basics/hello_world.md)
+  - [Kommentare](basics/comments.md)
   - [Datentypen](basics/data_types.md)
   - [Variablen](basics/variables.md)
   - [Eingaben](basics/input.md)
@@ -11,7 +12,7 @@
   - [Operatoren](basics/operators.md)
   - [Text in Zahlen umwandeln](basics/casting.md)
   - [Alter berechnen anhand vom Geburtsdatum](basics/age_calculator.md)
-  - [Boolesche Werte](basics/booleans.md)
+  - [Boolesche Werte](basics/bools.md)
   - [Wenn, dann](basics/if.md)
 - [Schleifen/Wiederhohlungen](loops/index.md)
   - [While-Schleife](loops/while.md)
