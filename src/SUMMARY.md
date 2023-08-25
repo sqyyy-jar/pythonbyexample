@@ -4,6 +4,7 @@
 
 - [Basics](basics/index.md)
   - [Hallo Welt](basics/hello_world.md)
+  - [Kommentare](basics/comments.md)
   - [Datentypen](basics/data_typed.md)
   - [Variablen](basics/variables.md)
   - [Eingaben](basics/input.md)
