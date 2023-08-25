@@ -1,6 +1,6 @@
 # Inhaltsverzeichnis
 
-[Startseite](start.md)
+[Startseite](README.md)
 
 - [Basics](basics/main.md)
   - [Hallo Welt](basics/hello_world.md)
