@@ -10,7 +10,7 @@
   - [Listen](basics/lists.md)
   - [Simple Berechnungen](basics/simple_calculating.md)
   - [Text in Zahlen umwandeln](basics/casting.md)
-  - [Boolesche Werte](basics/booleans.md)
+  - [Boolesche Werte](basics/bools.md)
   - [Operatoren](basics/operators.md)
   - [Wenn, dann](basics/if_else.md)
 - [Schleifen/Wiederhohlungen](loops/index.md)
